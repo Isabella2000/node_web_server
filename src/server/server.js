@@ -1,5 +1,5 @@
-const express = require("express");
-const path = require("path");
+import express from "express";
+import path from "path";
 
 const startServer = (options) => {
   const { port, public_path = "public" } = options;
@@ -18,8 +18,8 @@ const startServer = (options) => {
     res.sendFile(indexpath);
   });
   app.listen(port, () => {
-    console.log(`Escuchando puerto ${port}`)
+    console.log(`Escuchando puerto ${port}`);
   });
 };
 
-module.exports = { startServer };
+export { startServer };
