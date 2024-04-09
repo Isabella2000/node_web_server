@@ -2,17 +2,15 @@
 Realizamos un servidor web donde servimos una web de tipo red social como la del pajarito
 
 ## ¿Cómo usarlo?
-1.  Debes realizar el clonado  `git clone https://github.com/sergiecode/node_web_server`
-2.  Abrir en tu editor de código y hacer en la terminal  `npm install`
-3.  Debes armar tu variable de entorno  `.env`  con la plantilla que dejamos disponible. (Recomendado PORT: 3000 y carpeta 'PUBLIC')
-4.  Ya puedes ejecutar el proyecto usando  `npm start`
+1.  npm run dev
+2.  npm i env-var
+3.  npm i express dotenv
+4.  npm i body-parser
+5.  npm i nodemon --save-dev
 
-## Requiere:
+## Comandos:
 -   **NODE**: Se debe instalar NODE en el sistema operativo
 -   **GIT**: Debe tener Instalado GIT
 
-
 ## Wow
-
-> **Note:** Esto **es bacano** es de stackedit.io.
-
+> Sino mira el video de sergio code PRACTICA 2 https://www.youtube.com/watch?v=I17ln313Pjk&t=4s
